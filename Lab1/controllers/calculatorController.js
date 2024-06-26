@@ -1,5 +1,5 @@
 // controllers/calculatorController.js
-const calculator = require('../lib/calculator');
+const calculator = require('../models/calculator');
 
 const add = (req, res) => {
     const { num1, num2 } = req.query;
